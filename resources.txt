@@ -1,0 +1,3 @@
+Build and Deploy an Amazing Developer Portfolio with Next JS and Framer Motion
+https://youtu.be/FTH6Dn3AyIQ?si=VJK3NtVPCYd2A1Vx
+https://github.com/adrianhajdin/portfolio
