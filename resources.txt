@@ -1,3 +1,6 @@
 Build and Deploy an Amazing Developer Portfolio with Next JS and Framer Motion
 https://youtu.be/FTH6Dn3AyIQ?si=VJK3NtVPCYd2A1Vx
 https://github.com/adrianhajdin/portfolio
+
+HTML Text Markup Rules
+https://github.com/jsx-eslint/eslint-plugin-react/blob/master/docs/rules/no-unescaped-entities.md
