@@ -1,3 +1,9 @@
+import b1 from "@/public/b1.svg"
+import exp3 from "@/public/exp3.svg"
+import grid from "@/public/grid.svg"
+import b4 from "@/public/b4.svg"
+import p1 from "@/public/p1.svg"
+
 export const navItems = [
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
@@ -13,7 +19,7 @@ export const navItems = [
       className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
       imgClassName: "w-full h-full",
       titleClassName: "justify-end",
-      img: "/b1.svg",
+      img: b1,
       spareImg: "",
     },
     {
@@ -43,8 +49,8 @@ export const navItems = [
       className: "lg:col-span-2 md:col-span-3 md:row-span-1",
       imgClassName: "",
       titleClassName: "justify-start",
-      img: "/grid.svg",
-      spareImg: "/b4.svg",
+      img: grid,
+      spareImg: b4,
     },
   
     {
@@ -74,7 +80,7 @@ export const navItems = [
       id: 1,
       title: "3D Solar System Planets to Explore",
       des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-      img: "/p1.svg",
+      img: p1,
       iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
       link: "https://github.com/adrianhajdin?tab=repositories",
     },
@@ -190,7 +196,7 @@ export const navItems = [
       title: "Freelance App Dev Project",
       desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
       className: "md:col-span-2", // change to md:col-span-2
-      thumbnail: "/exp3.svg",
+      thumbnail: exp3,
     },
     {
       id: 4,

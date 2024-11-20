@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import { Spotlight } from './ui/Spotlight'
+import Logo from '@/public/Softblock-Logo.png'
 import { TextGenerateEffect } from './ui/TextGenerateEffect'
 // import MagicButton from './ui/MagicButton'
 import { FaLocationArrow } from 'react-icons/fa'
@@ -46,11 +47,11 @@ const Hero = () => {
               Dynamic Web Magic with Next.js
             </h2> */}
 
-            <div>
+            <div className='border-2'>
               <Image 
-                src="/Softblock-Logo.svg"
-                width={100}
-                height={150} 
+                src={Logo}
+                width={200}
+                height={250} 
                 alt={'softblock logo'} 
               />
             </div>
