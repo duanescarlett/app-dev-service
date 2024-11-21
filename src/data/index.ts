@@ -1,8 +1,39 @@
-import b1 from "@/public/b1.svg"
-import exp3 from "@/public/exp3.svg"
-import grid from "@/public/grid.svg"
-import b4 from "@/public/b4.svg"
-import p1 from "@/public/p1.svg"
+import { 
+  b1,
+  exp3,
+  grid,
+  b4,
+  p1,
+  b5,
+  p2,
+  next,
+  tail,
+  ts,
+  stream,
+  c,
+  p3,
+  re,
+  three,
+  p4,
+  fm,
+  gsap,
+  cloud,
+  cloudName,
+  app,
+  appName,
+  host,
+  hostName,
+  s,
+  streamName,
+  dock,
+  dockerName,
+  exp1,
+  exp2,
+  exp4,
+  git,
+  twit,
+  link,
+} from "./imgHandler"
 
 export const navItems = [
   { name: "About", link: "#about" },
@@ -60,8 +91,8 @@ export const navItems = [
       className: "md:col-span-3 md:row-span-2",
       imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
       titleClassName: "justify-center md:justify-start lg:justify-center",
-      img: "/b5.svg",
-      spareImg: "/grid.svg",
+      img: b5,
+      spareImg: grid,
     },
     {
       id: 6,
@@ -81,31 +112,31 @@ export const navItems = [
       title: "3D Solar System Planets to Explore",
       des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
       img: p1,
-      iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
+      iconLists: [re, tail, ts, three, fm],
       link: "https://github.com/adrianhajdin?tab=repositories",
     },
     {
       id: 2,
       title: "Yoom - Video Conferencing App",
       des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-      img: "/p2.svg",
-      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
+      img: p2,
+      iconLists: [next, tail, ts, stream, c],
       link: "https://github.com/adrianhajdin/zoom-clone",
     },
     {
       id: 3,
       title: "AI Image SaaS - Canva Application",
       des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-      img: "/p3.svg",
-      iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
+      img: p3,
+      iconLists: [re, tail, ts, three, c],
       link: "https://github.com/adrianhajdin/ai_saas_app",
     },
     {
       id: 4,
       title: "Animated Apple Iphone 3D Website",
       des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-      img: "/p4.svg",
-      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+      img: p4,
+      iconLists: [next, tail, ts, three, gsap],
       link: "https://github.com/adrianhajdin/iphone",
     },
   ];
@@ -147,32 +178,32 @@ export const navItems = [
     {
       id: 1,
       name: "cloudinary",
-      img: "/cloud.svg",
-      nameImg: "/cloudName.svg",
+      img: cloud,
+      nameImg: cloudName,
     },
     {
       id: 2,
       name: "appwrite",
-      img: "/app.svg",
-      nameImg: "/appName.svg",
+      img: app,
+      nameImg: appName,
     },
     {
       id: 3,
       name: "HOSTINGER",
-      img: "/host.svg",
-      nameImg: "/hostName.svg",
+      img: host,
+      nameImg: hostName,
     },
     {
       id: 4,
       name: "stream",
-      img: "/s.svg",
-      nameImg: "/streamName.svg",
+      img: s,
+      nameImg: streamName,
     },
     {
       id: 5,
       name: "docker.",
-      img: "/dock.svg",
-      nameImg: "/dockerName.svg",
+      img: dock,
+      nameImg: dockerName,
     },
   ];
   
@@ -182,14 +213,14 @@ export const navItems = [
       title: "Frontend Engineer Intern",
       desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
       className: "md:col-span-2",
-      thumbnail: "/exp1.svg",
+      thumbnail: exp1,
     },
     {
       id: 2,
       title: "Mobile App Dev - JSM Tech",
       desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
       className: "md:col-span-2", // change to md:col-span-2
-      thumbnail: "/exp2.svg",
+      thumbnail: exp2,
     },
     {
       id: 3,
@@ -203,21 +234,21 @@ export const navItems = [
       title: "Lead Frontend Developer",
       desc: "Developed and maintained user-facing features using modern frontend technologies.",
       className: "md:col-span-2",
-      thumbnail: "/exp4.svg",
+      thumbnail: exp4,
     },
   ];
   
 export const socialMedia = [
   {
     id: 1,
-    img: "/git.svg",
+    img: git,
   },
   {
     id: 2,
-    img: "/twit.svg",
+    img: twit,
   },
   {
     id: 3,
-    img: "/link.svg",
+    img: link,
   },
 ];

@@ -39,7 +39,7 @@ const Hero = () => {
           transparent_20%,black)]" />
         </div>
 
-        <div className='flex justify-center relative my-20 z-10'>
+        <div className='flex justify-center relative my-5 z-10'>
           <div className='max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] 
           flex flex-col items-center justify-center'>
             {/* <h2 className='uppercase tracking-widest
@@ -47,7 +47,7 @@ const Hero = () => {
               Dynamic Web Magic with Next.js
             </h2> */}
 
-            <div className='border-2'>
+            <div className=''>
               <Image 
                 src={Logo}
                 width={200}
