@@ -62,10 +62,10 @@ const Hero = () => {
               words={'Transforming concepts into Seamless Experiences'}            
             />
 
-            <p className='text-center md:tracking-wider
+            {/* <p className='text-center md:tracking-wider
             mb-4 text-sm md:text-lg lg:text-2xl'>
               Hi, Welcome To Softblock
-            </p>
+            </p> */}
 
             <a href="#about">
               {/* <MagicButton 
