@@ -87,7 +87,7 @@ const Bento = () => {
 
                         {/* Card 4 */}
                         <div className="multicolor-bg-image flex-1 rounded-3xl border border-white/[0.2]">
-                            <div className="inset-0 bg-gradient-to-b from-black/60 to-transparent justify-start group-hover/bento:translate-x-2 transition duration-200 relative md:h-full min-h-40 flex flex-col items-center p-5 lg:p-10">
+                            <div className="pt-10 md:pt-5 sm:pt-5 bg-gradient-to-b from-black/60 to-transparent justify-start group-hover/bento:translate-x-2 transition duration-200 relative flex flex-col items-center">
                                 {/* <!-- Heading --> */}
                                 <div className="font-sans text-lg md:text-xl lg:text-3xl max-w-96 font-bold z-10 text-center">
                                     Let us Develop your Application
@@ -104,10 +104,10 @@ const Bento = () => {
                 </div>
 
                 {/* Second Large Card */}
-                <div className="col-span-1 sm:col-span-2 lg:col-span-7 p-4 h-96 row-span-1 relative overflow-hidden rounded-3xl border border-white/[0.2] group/bento hover:shadow-xl transition duration-200 shadow-input dark:shadow-none flex flex-col space-y-4">
-                <div className="justify-end group-hover/bento:translate-x-2 transition duration-200 relative md:h-full min-h-40 flex flex-col p-5 lg:p-10">
-                    <p className="font-sans text-lg md:text-xl lg:text-3xl max-w-96 font-bold z-10">
-                    We are currently building an amazing SaaS platform
+                <div className="sass-bg-image col-span-1 sm:col-span-2 lg:col-span-7 p-4 h-96 row-span-1 relative overflow-hidden rounded-3xl border border-white/[0.2] group/bento hover:shadow-xl transition duration-200 shadow-input dark:shadow-none flex flex-col space-y-4">
+                <div className="justify-start group-hover/bento:translate-x-2 transition duration-200 relative md:h-full min-h-40 flex flex-col p-5 lg:p-10">
+                    <p className="font-sans text-lg md:text-3xl lg:text-4xl max-w-96 font-bold z-10">
+                        We are currently building an amazing SaaS platform
                     </p>
                 </div>
                 </div>

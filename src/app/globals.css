@@ -107,5 +107,12 @@
   .multicolor-bg-image {
     @apply
     bg-[url('../public/multicolored_background.png')]
+    bg-no-repeat 
+  }
+
+  .sass-bg-image {
+    @apply
+    bg-[url('../public/sass_background.png')]
+    bg-no-repeat 
   }
 }
