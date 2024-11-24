@@ -7,10 +7,12 @@ const Bento = () => {
             <div className="mx-auto grid w-full grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-12">
 
                 {/* First Large Card */}
-                <div className="col-span-1 sm:col-span-2 lg:col-span-7 p-4 h-96 row-span-1 relative overflow-hidden rounded-3xl border border-white/[0.2] group/bento hover:shadow-xl transition duration-200 shadow-input dark:shadow-none flex flex-col space-y-4">
+                <div className="coding-bg-image col-span-1 sm:col-span-2 lg:col-span-7 p-4 h-96 row-span-1 relative overflow-hidden rounded-3xl border border-white/[0.2] group/bento hover:shadow-xl transition duration-200 shadow-input dark:shadow-none flex flex-col space-y-4">
+                    <div className="absolute inset-0 bg-gradient-to-r from-black/100 to-transparent"></div>
                     <div className="justify-end group-hover/bento:translate-x-2 transition duration-200 relative md:h-full min-h-40 flex flex-col p-5 lg:p-10">
                         <p className="font-sans text-lg md:text-xl lg:text-3xl max-w-96 font-bold z-10">
-                        We prioritize client collaboration, fostering open communication
+                            We prioritize client collaboration, fostering open communication
+                            <code>Show technology based on development</code>
                         </p>
                     </div>
                 </div>
@@ -19,7 +21,7 @@ const Bento = () => {
                 <div className="col-span-1 sm:col-span-1 lg:col-span-5 h-96">
                     <div className="flex flex-col w-full h-full gap-6">
                         {/* Card 1 */}
-                        <div className="flex-1 rounded-3xl border border-white/[0.2]">
+                        <div className="earth-bg-image flex-1 rounded-3xl border border-white/[0.2]">
                         <div className="justify-start group-hover/bento:translate-x-2 transition duration-200 relative md:h-full min-h-40 flex flex-col p-5 lg:p-10">
                             <div className="font-sans text-lg md:text-xl lg:text-3xl max-w-96 font-bold z-10">
                             We are very flexible with time zone communications
