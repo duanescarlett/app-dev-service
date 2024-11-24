@@ -12,7 +12,6 @@ const Bento = () => {
                     <div className="justify-end group-hover/bento:translate-x-2 transition duration-200 relative md:h-full min-h-40 flex flex-col p-5 lg:p-10">
                         <p className="font-sans text-lg md:text-xl lg:text-3xl max-w-96 font-bold z-10">
                             We prioritize client collaboration, fostering open communication
-                            <code>Show technology based on development</code>
                         </p>
                     </div>
                 </div>
@@ -22,20 +21,54 @@ const Bento = () => {
                     <div className="flex flex-col w-full h-full gap-6">
                         {/* Card 1 */}
                         <div className="earth-bg-image flex-1 rounded-3xl border border-white/[0.2]">
-                        <div className="justify-start group-hover/bento:translate-x-2 transition duration-200 relative md:h-full min-h-40 flex flex-col p-5 lg:p-10">
-                            <div className="font-sans text-lg md:text-xl lg:text-3xl max-w-96 font-bold z-10">
-                            We are very flexible with time zone communications
+                            <div className="justify-start group-hover/bento:translate-x-2 transition duration-200 relative md:h-full min-h-40 flex flex-col p-5 lg:p-10">
+                                <div className="font-sans text-lg md:text-xl lg:text-3xl max-w-96 font-bold z-10">
+                                    We are very flexible with time zone communications
+                                </div>
                             </div>
-                        </div>
                         </div>
 
                         {/* Card 2 */}
-                        <div className="flex-1 rounded-3xl border border-white/[0.2]">
-                        <div className="justify-start group-hover/bento:translate-x-2 transition duration-200 relative md:h-full min-h-40 flex flex-col p-5 lg:p-10">
-                            <div className="font-sans text-lg md:text-xl lg:text-3xl max-w-96 font-bold z-10">
-                            Our Tech Stack is always on the cutting edge
+                       
+                        <div className="flex-1 rounded-3xl border border-white/[0.2] justify-start group-hover/bento:translate-x-2 transition duration-200 relative md:h-full min-h-40 flex flex-col p-5 lg:p-10 overflow-hidden">
+                            <div className="font-sans text-lg md:text-xl lg:text-2xl max-w-75 font-bold z-10 pt-7">
+                                <p>Our Tech Stack</p> 
+                                <i className='text-sm'>is always on the cutting edge</i>
                             </div>
-                        </div>
+
+                            <div className="flex gap-1 lg:gap-5 w-fit absolute -right-3 lg:-right-2 z-11">
+                                <div className="flex flex-col gap-3 md:gap-3 lg:gap-8 -mt-4">
+                                    <span className="lg:py-4 lg:px-3 py-2 px-3 text-xs lg:text-base opacity-50  lg:opacity-100 rounded-lg text-center bg-[#10132E]">
+                                        ReactJS
+                                    </span>
+                                    <span className="lg:py-4 lg:px-3 py-2 px-3 text-xs lg:text-base opacity-50  lg:opacity-100 rounded-lg text-center bg-[#10132E]">
+                                        Express
+                                    </span>
+                                    <span className="lg:py-4 lg:px-3 py-2 px-3 text-xs lg:text-base opacity-50  lg:opacity-100 rounded-lg text-center bg-[#10132E]">
+                                        Typescript
+                                    </span>
+                                    <span className="lg:py-4 lg:px-3 py-4 px-3  rounded-lg text-center bg-[#10132E]">
+
+                                    </span>
+                                </div>
+                                
+                                <div className="flex flex-col gap-3 md:gap-3 lg:gap-8 -mt-10">
+                                    <span className="lg:py-4 lg:px-3 py-4 px-3  rounded-lg text-center bg-[#10132E]">
+                                        Typescript
+                                    </span>
+                                    <span className="lg:py-4 lg:px-3 py-2 px-3 text-xs lg:text-base opacity-50  lg:opacity-100 rounded-lg text-center bg-[#10132E]">
+                                        Nginx
+                                    </span>
+                                    <span className="lg:py-4 lg:px-3 py-2 px-3 text-xs lg:text-base opacity-50  lg:opacity-100 rounded-lg text-center bg-[#10132E]">
+                                        
+                                    </span>
+                                    <span className="lg:py-4 lg:px-3 py-2 px-3 text-xs lg:text-base opacity-50  lg:opacity-100 rounded-lg text-center bg-[#10132E]">
+                                        GraphQL
+                                    </span>
+                                </div>
+
+                            </div>
+
                         </div>
                     </div>
                 </div>
