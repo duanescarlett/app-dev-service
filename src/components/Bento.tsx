@@ -1,7 +1,13 @@
+'use client'
 import { span } from 'framer-motion/client'
-import React from 'react'
+import CustomButton from './CustomButton'
 
 const Bento = () => {
+
+    const popUp = () => {
+        console.log("Button Clicked!!")
+    }
+
     return (
         <div className="min-h-screen px-4 py-12 text-zinc-50">
             <div className="mx-auto grid w-full grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-12">
@@ -94,9 +100,11 @@ const Bento = () => {
                                 </div>
 
                                 {/* <!-- Button --> */}
-                                <button className="mt-5 px-6 py-3 text-sm md:text-base lg:text-lg font-medium text-white bg-blue-500 rounded-lg hover:bg-blue-600 transition duration-200">
+                                {/* <button className="mt-5 px-6 py-3 text-sm md:text-base lg:text-lg font-medium text-white bg-blue-500 rounded-lg hover:bg-blue-600 transition duration-200">
                                     Let's Start
-                                </button>
+                                </button> */}
+
+                                <CustomButton text={'Lets Start'} onClick={() => popUp()} />
                             </div>
                         </div>
 
