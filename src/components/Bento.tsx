@@ -75,25 +75,32 @@ const Bento = () => {
 
                 {/* Bottom Left Column */}
                 <div className="col-span-1 sm:col-span-1 lg:col-span-5 h-96">
-                <div className="flex flex-col w-full h-full gap-6">
-                    {/* Card 3 */}
-                    <div className="flex-1 rounded-3xl border border-white/[0.2]">
-                    <div className="justify-start group-hover/bento:translate-x-2 transition duration-200 relative md:h-full min-h-40 flex flex-col p-5 lg:p-10">
-                        <div className="font-sans text-lg md:text-xl lg:text-3xl max-w-96 font-bold z-10">
-                        Tech enthusiast with a passion for development
+                    <div className="flex flex-col w-full h-full gap-6">
+                        {/* Card 3 */}
+                        <div className="wireframe-bg-image flex-1 rounded-3xl border border-white/[0.2]">
+                            <div className="justify-start group-hover/bento:translate-x-2 transition duration-200 relative md:h-full min-h-40 flex flex-col p-5 lg:p-10">
+                                <div className="font-sans text-lg md:text-xl lg:text-3xl max-w-96 font-bold z-10">
+                                    Tech enthusiast with a passion for development
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                    </div>
 
-                    {/* Card 4 */}
-                    <div className="flex-1 rounded-3xl border border-white/[0.2]">
-                    <div className="justify-start group-hover/bento:translate-x-2 transition duration-200 relative md:h-full min-h-40 flex flex-col p-5 lg:p-10">
-                        <div className="font-sans text-lg md:text-xl lg:text-3xl max-w-96 font-bold z-10">
-                        Let us develop your application
+                        {/* Card 4 */}
+                        <div className="multicolor-bg-image flex-1 rounded-3xl border border-white/[0.2]">
+                            <div className="inset-0 bg-gradient-to-b from-black/60 to-transparent justify-start group-hover/bento:translate-x-2 transition duration-200 relative md:h-full min-h-40 flex flex-col items-center p-5 lg:p-10">
+                                {/* <!-- Heading --> */}
+                                <div className="font-sans text-lg md:text-xl lg:text-3xl max-w-96 font-bold z-10 text-center">
+                                    Let us Develop your Application
+                                </div>
+
+                                {/* <!-- Button --> */}
+                                <button className="mt-5 px-6 py-3 text-sm md:text-base lg:text-lg font-medium text-white bg-blue-500 rounded-lg hover:bg-blue-600 transition duration-200">
+                                    Let's Start
+                                </button>
+                            </div>
                         </div>
+
                     </div>
-                    </div>
-                </div>
                 </div>
 
                 {/* Second Large Card */}

@@ -89,18 +89,23 @@
 
   .coding-bg-image {
     @apply 
-    /* relative 
-    w-full 
-    sm:h-screen
-    h-64
-    bg-cover 
-    bg-center */
     bg-[url('../public/coding_background.png')]
-    /* sm:bg-[url('public/woolook-hero-desktop.jpg')] */
   }
 
   .earth-bg-image {
     @apply
     bg-[url('../public/earthRotation.gif')]
+  }
+
+  .wireframe-bg-image {
+    @apply 
+    bg-[url('../public/b4.svg')]
+    bg-no-repeat 
+    bg-right-bottom
+  }
+
+  .multicolor-bg-image {
+    @apply
+    bg-[url('../public/multicolored_background.png')]
   }
 }
