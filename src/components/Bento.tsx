@@ -105,11 +105,11 @@ const Bento = () => {
 
                 {/* Second Large Card */}
                 <div className="sass-bg-image col-span-1 sm:col-span-2 lg:col-span-7 p-4 h-96 row-span-1 relative overflow-hidden rounded-3xl border border-white/[0.2] group/bento hover:shadow-xl transition duration-200 shadow-input dark:shadow-none flex flex-col space-y-4">
-                <div className="justify-start group-hover/bento:translate-x-2 transition duration-200 relative md:h-full min-h-40 flex flex-col p-5 lg:p-10">
-                    <p className="font-sans text-lg md:text-3xl lg:text-4xl max-w-96 font-bold z-10">
-                        We are currently building an amazing SaaS platform
-                    </p>
-                </div>
+                    <div className="justify-start group-hover/bento:translate-x-2 transition duration-200 relative md:h-full min-h-40 flex flex-col p-5 lg:p-10">
+                        <p className="font-sans text-2xl md:text-3xl lg:text-4xl max-w-96 font-bold z-10">
+                            We are currently building an amazing SaaS platform
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
