@@ -1,33 +1,109 @@
 'use client'
+import { useState } from "react"
 import { span } from 'framer-motion/client'
 import CustomButton from './CustomButton'
 import { ModalBody, ModalContent, ModalFooter } from "./ui/AnimatedModal"
-import { useState } from 'react'
 
 const Bento = () => {
     const [open, setOpen] = useState(false)
+    const [formData, setFormData] = useState({
+        name: "",
+        email: "",
+        message: "",
+    })
 
-    // const popUp = () => {
-    //     console.log("Button Clicked!!")
-    // }
+    const handleChange = (e: any) => {
+        setFormData({
+          ...formData,
+          [e.target.name]: e.target.value,
+        })
+    }
+
+    const handleSubmit = (e: any) => {
+        e.preventDefault()
+        console.log("Form Data Submitted:", formData)
+        // Add your submission logic here (e.g., API call or email service)
+    }
 
     return (
         <>
         {/* Modal */}
-        <ModalBody open={open} setOpen={setOpen}>
-            <ModalContent>
-            <h1 className="text-2xl font-bold">This is the Modal</h1>
-            <p className="mt-2">You can customize its content as needed.</p>
-            </ModalContent>
-            <ModalFooter>
-            <button
-                className="px-4 py-2 bg-gray-500 text-white rounded-lg hover:bg-gray-600 transition"
-                onClick={() => setOpen(false)}
-            >
-                Close
-            </button>
-            </ModalFooter>
-        </ModalBody>
+        <div className='z-100'>
+            <ModalBody open={open} setOpen={setOpen}>
+                <ModalContent>
+                    <form onSubmit={handleSubmit} className="space-y-6">
+                        {/* Name Field */}
+                        <div>
+                        <label htmlFor="name" className="block text-sm font-medium text-gray-700">
+                            Name
+                        </label>
+                        <input
+                            type="text"
+                            id="name"
+                            name="name"
+                            value={formData.name}
+                            onChange={handleChange}
+                            placeholder="Your full name"
+                            required
+                            className="mt-1 block w-full p-3 border border-gray-300 rounded-md shadow-sm focus:ring-teal-500 focus:border-teal-500 sm:text-sm"
+                        />
+                        </div>
+
+                        {/* Email Field */}
+                        <div>
+                        <label htmlFor="email" className="block text-sm font-medium text-gray-700">
+                            Email
+                        </label>
+                        <input
+                            type="email"
+                            id="email"
+                            name="email"
+                            value={formData.email}
+                            onChange={handleChange}
+                            placeholder="Your email address"
+                            required
+                            className="mt-1 block w-full p-3 border border-gray-300 rounded-md shadow-sm focus:ring-teal-500 focus:border-teal-500 sm:text-sm"
+                        />
+                        </div>
+
+                        {/* Message Field */}
+                        <div>
+                        <label htmlFor="message" className="block text-sm font-medium text-gray-700">
+                            Message
+                        </label>
+                        <textarea
+                            id="message"
+                            name="message"
+                            value={formData.message}
+                            onChange={handleChange}
+                            placeholder="Write your message here"
+                            required
+                            rows={5}
+                            className="mt-1 block w-full p-3 border border-gray-300 rounded-md shadow-sm focus:ring-teal-500 focus:border-teal-500 sm:text-sm"
+                        ></textarea>
+                        </div>
+
+                        {/* Submit Button */}
+                        <div>
+                        <button
+                            type="submit"
+                            className="w-full px-6 py-3 text-white bg-teal-600 hover:bg-teal-700 rounded-md focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-teal-500"
+                        >
+                            Send Message
+                        </button>
+                        </div>
+                    </form>
+                </ModalContent>
+                <ModalFooter>
+                <button
+                    className="px-4 py-2 bg-gray-500 text-white rounded-lg hover:bg-gray-600 transition"
+                    onClick={() => setOpen(false)}
+                >
+                    Close
+                </button>
+                </ModalFooter>
+            </ModalBody>
+        </div>
             <div className="min-h-screen px-4 py-12 text-zinc-50">
                 <div className="mx-auto grid w-full grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-12">
 
