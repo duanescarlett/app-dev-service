@@ -5,6 +5,7 @@ import CustomButton from './CustomButton'
 import { ModalBody, ModalContent, ModalFooter } from "./ui/AnimatedModal"
 
 const Bento = () => {
+    const [status, setStatus] = useState("")
     const [open, setOpen] = useState(false)
     const [formData, setFormData] = useState({
         name: "",
@@ -19,10 +20,30 @@ const Bento = () => {
         })
     }
 
-    const handleSubmit = (e: any) => {
+    const handleSubmit = async (e: any) => {
         e.preventDefault()
         console.log("Form Data Submitted:", formData)
-        // Add your submission logic here (e.g., API call or email service)
+        
+        try {
+            const res = await fetch('/api/email', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(formData)
+            })
+            const data = await res.json()
+            if (data.success) {
+                alert('Email sent successfully!')  
+                setFormData({ name: "", email: "", message: "" }); // Reset form after successful submission
+            } else {
+                alert('Error sending email: ' + data.error)
+            }
+        } catch (error) {
+            console.error("Error:", error);
+            setStatus("An error occurred. Please try again later.");
+        }
+        
     }
 
     return (
@@ -45,7 +66,7 @@ const Bento = () => {
                             onChange={handleChange}
                             placeholder="Your full name"
                             required
-                            className="mt-1 block w-full p-3 border border-gray-300 rounded-md shadow-sm focus:ring-teal-500 focus:border-teal-500 sm:text-sm"
+                            className="mt-1 block w-full p-3 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500 sm:text-sm"
                         />
                         </div>
 
@@ -87,7 +108,7 @@ const Bento = () => {
                         <div>
                         <button
                             type="submit"
-                            className="w-full px-6 py-3 text-white bg-teal-600 hover:bg-teal-700 rounded-md focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-teal-500"
+                            className="w-full px-6 py-3 border-2 border-slate-600 text-white bg-blue-700 hover:bg-blue-500 rounded-md focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-teal-500"
                         >
                             Send Message
                         </button>
