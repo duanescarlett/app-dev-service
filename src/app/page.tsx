@@ -1,7 +1,7 @@
 import Bento from "@/components/Bento";
 import Clients from "@/components/Clients";
 import DevProcess from "@/components/DevProcess";
-import Experience from "@/components/Experience";
+import Services from "@/components/Services";
 import Footer from "@/components/Footer";
 import Grid from "@/components/Grid";
 import Hero from "@/components/Hero";
@@ -21,7 +21,7 @@ export default function Home() {
         {/* <Grid /> */}
         <RecentProjects />
         <Clients />
-        <Experience />
+        <Services />
         <DevProcess />
         <Footer />
       </div>
