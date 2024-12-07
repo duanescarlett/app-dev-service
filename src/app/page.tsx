@@ -20,7 +20,7 @@ export default function Home() {
         <Bento />
         {/* <Grid /> */}
         <RecentProjects />
-        <Clients />
+        {/* <Clients /> */}
         <Services />
         <DevProcess />
         <Footer />

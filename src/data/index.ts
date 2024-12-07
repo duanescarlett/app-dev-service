@@ -207,32 +207,32 @@ export const navItems = [
     },
   ];
   
-  export const workExperience = [
+  export const servicePackages = [
     {
       id: 1,
       title: "Ecommerce Package",
-      desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+      desc: "Custom Ecommerce web application with user management and a CMS",
       className: "md:col-span-2",
       thumbnail: exp1,
     },
     {
       id: 2,
       title: "Business Website",
-      desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
+      desc: "Custom business website, give you business a digital footprint in order to reach you patrons quickly.",
       className: "md:col-span-2", // change to md:col-span-2
       thumbnail: exp2,
     },
     {
       id: 3,
       title: "Custom Web Application",
-      desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
+      desc: "Have an idea for a web app, like SAAS, PAAS, or AI? bring your idea to us and we will help you build it.",
       className: "md:col-span-2", // change to md:col-span-2
       thumbnail: exp3,
     },
     {
       id: 4,
-      title: "Search Engine Marketing (SEM)",
-      desc: "Developed and maintained user-facing features using modern frontend technologies.",
+      title: "AI Application",
+      desc: "Let us help you get more attention on Google. We can manage your search engine marketing campaign.",
       className: "md:col-span-2",
       thumbnail: exp4,
     },
