@@ -3,6 +3,7 @@ import { useState } from "react"
 import { servicePackages } from '@/data'
 import Image from 'next/image'
 import { Button } from './ui/MovingBorders'
+import Logo from '@/public/Softblock-Logo.png'
 import { ModalBody, ModalContent, ModalFooter } from "./ui/AnimatedModal"
 
 const Services = () => {
@@ -100,6 +101,12 @@ const Services = () => {
       <ModalBody open={open} setOpen={setOpen}>
         <ModalContent>
           <form onSubmit={handleSubmit} className="space-y-6">
+            <div className="flex justify-center">
+              <Image 
+                  width={100}
+                  height={100}
+                  src={Logo} alt={"logo"} />
+            </div>
               {/* Name Field */}
               <div>
               <label htmlFor="name" className="block text-sm font-medium text-gray-700">

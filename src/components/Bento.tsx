@@ -1,5 +1,7 @@
 'use client'
 import { useState } from "react"
+import Image from "next/image"
+import Logo from '@/public/Softblock-Logo.png'
 import { span } from 'framer-motion/client'
 import CustomButton from './CustomButton'
 import { ModalBody, ModalContent, ModalFooter } from "./ui/AnimatedModal"
@@ -52,7 +54,14 @@ const Bento = () => {
         <div className='z-100'>
             <ModalBody open={open} setOpen={setOpen}>
                 <ModalContent>
+                    
                     <form onSubmit={handleSubmit} className="space-y-6">
+                        <div className="flex justify-center">
+                            <Image 
+                                width={100}
+                                height={100}
+                                src={Logo} alt={"logo"} />
+                        </div>
                         {/* Name Field */}
                         <div>
                         <label htmlFor="name" className="block text-sm font-medium text-gray-700">
@@ -115,14 +124,14 @@ const Bento = () => {
                         </div>
                     </form>
                 </ModalContent>
-                <ModalFooter>
+                {/* <ModalFooter>
                 <button
                     className="px-4 py-2 bg-gray-500 text-white rounded-lg hover:bg-gray-600 transition"
                     onClick={() => setOpen(false)}
                 >
                     Close
                 </button>
-                </ModalFooter>
+                </ModalFooter> */}
             </ModalBody>
         </div>
             <div className="min-h-screen px-4 py-12 text-zinc-50">
