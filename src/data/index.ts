@@ -109,19 +109,19 @@ export const navItems = [
   export const projects = [
     {
       id: 1,
-      title: "3D Solar System Planets to Explore",
+      title: "WooLook Eyeware",
       des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
       img: p1,
       iconLists: [re, tail, ts, three, fm],
-      link: "https://github.com/adrianhajdin?tab=repositories",
+      link: "https://woo-look-eye-wear.vercel.app/",
     },
     {
       id: 2,
-      title: "Yoom - Video Conferencing App",
+      title: "Puremaine Organics",
       des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
       img: p2,
       iconLists: [next, tail, ts, stream, c],
-      link: "https://github.com/adrianhajdin/zoom-clone",
+      link: "https://puremaineorganics.com",
     },
     {
       id: 3,

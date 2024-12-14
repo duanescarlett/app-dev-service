@@ -6,6 +6,7 @@ import { projects } from "@/data";
 import { PinContainer } from "./ui/Pin";
 import BG from "@/public/bg.png"
 import Image from "next/image";
+import Link from "next/link";
 
 const RecentProjects = () => {
   return (
@@ -21,8 +22,8 @@ const RecentProjects = () => {
             key={item.id}
           >
             <PinContainer
-              title="/ui.aceternity.com"
-              href="https://twitter.com/mannupaaji"
+              title={item.link}
+              href={item.link}
             >
               <div className="relative flex items-center justify-center sm:w-96 w-[80vw] overflow-hidden h-[20vh] lg:h-[30vh] mb-10">
                 <div
@@ -75,7 +76,9 @@ const RecentProjects = () => {
 
                 <div className="flex justify-center items-center">
                   <p className="flex lg:text-xl md:text-xs text-sm text-purple">
-                    Check Live Site
+                    <Link href={item.link} target="_blank">
+                      Check Live Site
+                    </Link>
                   </p>
                   <FaLocationArrow className="ms-3" color="#CBACF9" />
                 </div>
