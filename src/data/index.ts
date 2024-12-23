@@ -213,28 +213,28 @@ export const navItems = [
       title: "Ecommerce Package",
       desc: "Custom Ecommerce web application with user management and a CMS",
       className: "md:col-span-2",
-      thumbnail: exp1,
+      // thumbnail: exp1,
     },
     {
       id: 2,
       title: "Business Website",
       desc: "Custom business website, give you business a digital footprint in order to reach you patrons quickly.",
       className: "md:col-span-2", // change to md:col-span-2
-      thumbnail: exp2,
+      // thumbnail: exp2,
     },
     {
       id: 3,
       title: "Custom Web Application",
       desc: "Have an idea for a web app, like SAAS, PAAS, or AI? bring your idea to us and we will help you build it.",
       className: "md:col-span-2", // change to md:col-span-2
-      thumbnail: exp3,
+      // thumbnail: exp3,
     },
     {
       id: 4,
       title: "AI Application",
       desc: "Let us help you get more attention on Google. We can manage your search engine marketing campaign.",
       className: "md:col-span-2",
-      thumbnail: exp4,
+      // thumbnail: exp4,
     },
   ];
   

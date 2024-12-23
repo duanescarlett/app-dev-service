@@ -76,13 +76,13 @@ const Services = () => {
             className="text-black dark:text-white border-neutral-200 dark:border-slate-800"
           >
             <div className="flex flex-col lg:items-center p-3 py-6 md:p-5 lg:p-10 gap-2">
-              <Image
+              {/* <Image
                 width={150}
                 height={150}
                 src={card.thumbnail}
                 alt={card.thumbnail}
                 className="lg:w-32 md:w-20 w-16"
-              />
+              /> */}
               <div className="lg:ms-0 text-center">
                 <h1 className="text-xl md:text-2xl font-bold">
                   {card.title}
