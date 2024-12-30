@@ -32,6 +32,7 @@ import dockerName from "@/public/dockerName.svg"
 import git from "@/public/git.svg"
 import twit from "@/public/twit.svg"
 import link from "@/public/link.svg"
+import insta from "@/public/insta.svg"
 import coding_back from "@/public/coding_background.png"
 import earth_rotation from "@/public/earthRotation.gif"
 
@@ -71,6 +72,7 @@ export {
     git,
     twit,
     link,
+    insta,
     coding_back,
     earth_rotation
 };

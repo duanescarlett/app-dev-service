@@ -33,6 +33,7 @@ import {
   git,
   twit,
   link,
+  insta,
 } from "./imgHandler"
 
 export const navItems = [
@@ -242,13 +243,16 @@ export const socialMedia = [
   {
     id: 1,
     img: git,
+    url: "https://github.com/Softblock-Applications"
   },
   {
     id: 2,
-    img: twit,
+    img: insta,
+    url: "https://www.instagram.com/softbloc_dev"
   },
   {
     id: 3,
     img: link,
+    url: "https://www.linkedin.com/company/softbloc/?viewAsMember=true"
   },
 ];
