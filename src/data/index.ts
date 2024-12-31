@@ -218,8 +218,8 @@ export const navItems = [
     },
     {
       id: 2,
-      title: "Business Website",
-      desc: "Custom business website, give you business a digital footprint in order to reach you patrons quickly.",
+      title: "Data Services",
+      desc: "Current Data, give your business a competitive edge with real-time marketplace data.",
       className: "md:col-span-2", // change to md:col-span-2
       // thumbnail: exp2,
     },
