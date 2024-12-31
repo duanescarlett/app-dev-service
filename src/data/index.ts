@@ -126,19 +126,19 @@ export const navItems = [
     },
     {
       id: 3,
-      title: "AI Image SaaS - Canva Application",
-      des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
+      title: "BRX Exchange - NFT Real Estate Application",
+      des: "Discover the benefits of fractional Real Estate ownership. Manage your real estate investments with this secure application.",
       img: p3,
       iconLists: [re, tail, ts, three, c],
       link: "https://brx.exchange",
     },
     {
       id: 4,
-      title: "Animated Apple Iphone 3D Website",
+      title: "Appy Meal - Food Delivery Application",
       des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
       img: p4,
       iconLists: [next, tail, ts, three, gsap],
-      link: "https://github.com/adrianhajdin/iphone",
+      link: "https://appymeal.com/",
     },
   ];
   

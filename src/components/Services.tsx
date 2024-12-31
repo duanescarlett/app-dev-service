@@ -169,14 +169,6 @@ const Services = () => {
               </div>
           </form>
         </ModalContent>
-        {/* <ModalFooter>
-        <button
-          className="px-4 py-2 bg-gray-500 text-white rounded-lg hover:bg-gray-600 transition"
-          onClick={() => setOpen(false)}
-        >
-          Close
-        </button>
-        </ModalFooter> */}
       </ModalBody>
     </div>
     </>
