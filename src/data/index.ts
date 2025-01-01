@@ -111,7 +111,7 @@ export const navItems = [
     {
       id: 1,
       title: "WooLook Eyeware",
-      des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
+      des: "Shop Bluelight Blocking Glasses & Screen Protective Glasses",
       img: p1,
       iconLists: [re, tail, ts, three, fm],
       link: "https://woo-look-eye-wear.vercel.app/",
@@ -119,7 +119,7 @@ export const navItems = [
     {
       id: 2,
       title: "Puremaine Organics",
-      des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
+      des: "At PureMaine Organics, we're a passionate group of nature enthusiasts, health advocates, and organic living experts",
       img: p2,
       iconLists: [next, tail, ts, stream, c],
       link: "https://puremaineorganics.com",
@@ -135,7 +135,7 @@ export const navItems = [
     {
       id: 4,
       title: "Appy Meal - Food Delivery Application",
-      des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
+      des: "AppyMeal is a To-Go app looking to save money for restaurants by reducing fees while also allowing users to save money on orders placed in the app",
       img: p4,
       iconLists: [next, tail, ts, three, gsap],
       link: "https://appymeal.com/",
