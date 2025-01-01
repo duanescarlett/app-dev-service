@@ -7,3 +7,7 @@ https://github.com/jsx-eslint/eslint-plugin-react/blob/master/docs/rules/no-unes
 
 Next JS SEO Tut
 https://youtu.be/wTGVHLyV09M?si=Zlhim2HGSqKIuxEe
+
+Colors:
+
+Brand colors - ff4100ff

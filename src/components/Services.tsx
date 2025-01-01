@@ -52,7 +52,7 @@ const Services = () => {
     <>
     <div className="py-20">
       <h1 className="heading">
-        Our <span className="text-purple">Services</span>
+        Our <span className="text-orange">Services</span>
       </h1>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-8 gap-6 p-6">
