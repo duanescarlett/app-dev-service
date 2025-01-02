@@ -12,15 +12,9 @@ const Footer = () => {
                 <h1 className='heading lg:max-w-[45vw]'>
                     Ready to take <span className='text-orange'>your</span> digital footprint to the next level?
                 </h1>
-                <p>
+                <p className='text-center mt-5 lg:max-w-[45vw]'>
                     Reach out to us today and let&apos;s discuss how we can help you achieve your goals.
                 </p>
-                <a href='mailto:duanescarlett@gmail.com'>
-                    {/* <MagicButton 
-                        title={"Let's get in touch"} 
-                        icon={<FaLocationArrow />} 
-                        position={'right'} /> */}
-                </a>
             </div>
             <div className='flex mt-16 md:flex-row flex-col justify-between items-center'>
                 <p className='md:text-base text-sm md:font-normal font-light'>Copyright © 2024 Softblock</p>
