@@ -53,7 +53,6 @@ const Hero = () => {
                 src={Logo}
                 width={200}
                 height={250} 
-                loading="lazy"
                 priority={true}
                 alt={'softblock logo'} 
               />
