@@ -27,7 +27,9 @@ const RecentProjects = () => {
                   className="relative w-full h-full overflow-hidden lg:rounded-3xl"
                   style={{ backgroundColor: "#13162D" }}
                 >
-                <Image src={BG} height={100} width={100} alt="bgimg" />
+                <Image
+                  loading="lazy"
+                  src={BG} height={100} width={100} alt="bgimg" />
                 </div>
                 <Image
                   src={item.img}
@@ -35,6 +37,7 @@ const RecentProjects = () => {
                   height={300}
                   alt="cover help"
                   className="z-10 absolute bottom-0"
+                  loading="lazy"
                 />
               </div>
 
@@ -66,6 +69,7 @@ const RecentProjects = () => {
                         height={64} 
                         width={64}
                         src={icon} 
+                        loading="lazy"
                         alt="icon5" className="p-2" />
                     </div>
                   ))}
