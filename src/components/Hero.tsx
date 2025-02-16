@@ -4,6 +4,7 @@ import Logo from '@/public/Softblock-Logo.png'
 import { TextGenerateEffect } from './ui/TextGenerateEffect'
 // import MagicButton from './ui/MagicButton'
 import { FaLocationArrow } from 'react-icons/fa'
+import { lazy } from 'react'
 
 const Hero = () => {
   return (
@@ -52,6 +53,8 @@ const Hero = () => {
                 src={Logo}
                 width={200}
                 height={250} 
+                loading="lazy"
+                priority={true}
                 alt={'softblock logo'} 
               />
             </div>

@@ -87,7 +87,8 @@ const Services = () => {
                 <h1 className="text-xl md:text-2xl font-bold">
                   {card.title}
                 </h1>
-                <p className="text-white-100 mt-3 font-semibold">
+                {/* <p className="text-white-100 mt-3 font-semibold"> */}
+                <p className="text-blue mt-3 font-semibold">  
                   {card.desc}
                 </p>
               </div>

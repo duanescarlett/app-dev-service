@@ -38,9 +38,10 @@ const config = {
           100: "#BEC1DD",
           200: "#C1C2D3",
         },
-        blue: {
-          "100": "#E4ECFF",
-        },
+        // blue: {
+        //   "100": "#E4ECFF",
+        // },
+        blue: "#009DFA",
         purple: "#CBACF9",
         orange: "#FD5E00",
         border: "hsl(var(--border))",
