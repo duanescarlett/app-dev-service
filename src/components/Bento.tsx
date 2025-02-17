@@ -117,7 +117,8 @@ const Bento = () => {
                         <div>
                         <button
                             type="submit"
-                            className="w-full px-6 py-3 border-2 border-slate-600 text-white bg-blue-700 hover:bg-blue-500 rounded-md focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-teal-500"
+                            className="
+                            w-full px-6 py-3 border-2 border-slate-600 text-white bg-blue hover:bg-orange rounded-md focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-teal-500"
                         >
                             Send Message
                         </button>
