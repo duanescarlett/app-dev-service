@@ -51,7 +51,7 @@ const page = () => {
         <>
             {/* <div className='bg-black-100'> */}
             <div className="min-h-screen flex items-center justify-center px-4">
-                <form onSubmit={handleSubmit} className="sm:w-1/3 w-3/5">
+                <form onSubmit={handleSubmit} className="sm:w-1/3 w-4/5">
                     <div className="flex justify-center">
                         <Image 
                             width={100}
