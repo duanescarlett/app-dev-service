@@ -1,7 +1,7 @@
 'use client'
 import { useState } from "react"
 import Image from "next/image"
-import Logo from '@/public/Softblock-Logo.png'
+import Logo from '@/public/Nugentry-Logo.png'
 import { span } from 'framer-motion/client'
 import CustomButton from './CustomButton'
 import { ModalBody, ModalContent, ModalFooter } from "./ui/AnimatedModal"

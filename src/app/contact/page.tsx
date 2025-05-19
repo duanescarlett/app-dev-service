@@ -2,7 +2,7 @@
 import { useState } from "react"
 import { ModalBody, ModalContent, ModalFooter } from "../../components/ui/AnimatedModal";
 import CustomButton from '../../components/CustomButton';
-import Logo from '@/public/Softblock-Logo.png';
+import Logo from '@/public/Nugentry-Logo.png';
 import Image from 'next/image';
 
 const page = () => {

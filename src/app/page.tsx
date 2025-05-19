@@ -11,14 +11,14 @@ import { navItems } from "@/data";
 
 export default function Home() {
   return (
-    <main className="relative bg-black-100 
+    <main className="relative bg-gray-900 text-white 
     flex justify-center items-center 
     flex-col mx-auto sm:px-10 px-5 overflow-clip">
       <div className="max-w-7xl w-full">
         <FloatingNav navItems={navItems} />
         <Hero />
-        <Bento />
-        <RecentProjects />
+        {/* <Bento /> */}
+        {/* <RecentProjects /> */}
         {/* <Clients /> */}
         <Services />
         <DevProcess />

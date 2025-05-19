@@ -243,7 +243,7 @@ export const socialMedia = [
   {
     id: 1,
     img: git,
-    url: "https://github.com/Softblock-Applications"
+    url: "https://github.com/Nugentry-Applications"
   },
   {
     id: 2,

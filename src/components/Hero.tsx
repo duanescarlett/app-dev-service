@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import { Spotlight } from './ui/Spotlight'
-import Logo from '@/public/Softblock-Logo.png'
+import Logo from '@/public/Nugentry_Business_Solutions_logo.png'
 import { TextGenerateEffect } from './ui/TextGenerateEffect'
 // import MagicButton from './ui/MagicButton'
 import { FaLocationArrow } from 'react-icons/fa'
@@ -54,7 +54,7 @@ const Hero = () => {
                 width={200}
                 height={250} 
                 priority={true}
-                alt={'softblock logo'} 
+                alt={'nugentry logo'} 
               />
             </div>
 
